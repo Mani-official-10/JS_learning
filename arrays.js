@@ -35,4 +35,14 @@ const myarray = [1,2,3,4,5,6, true , "Manish"];
 const another_array = [1,2,3,[4,5,6],7,8,9,[10,11]];
 
 const spread_another_array = another_array.flat(2);
-console.log(spread_another_array);
+// console.log(spread_another_array);
+
+// console.log(Array.isArray("manish"));
+// console.log(Array.from("manish"));
+// console.log(Array.from({name:"manish"}));
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1,score2,score3));
