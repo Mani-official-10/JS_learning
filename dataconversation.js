@@ -1,6 +1,8 @@
 // let score = null;
 
 // console.log(typeof score);
+// console.log(typeof (score)); Another way of using the typeof .
+
 // let valueInNumber = Number(score);
 
 // console.log(typeof valueInNumber);
@@ -8,7 +10,7 @@
 
 
 // 33 ---> easily converted to number 
-// 33abc ----> not converted to number ( NaN)
+// 33abc ----> not converted to number ( NaN) but type is number.
 // null ----> converted to 0
 // true ---> 1 / false ---> 0
 // undefined ----> converted to Nan
@@ -22,8 +24,10 @@
 
 // false --> false / true --> true
 // 1 --> true / 0 --> false
-// "manish" ---> ture
+// "manish" ---> true
 // "" ---> false / " "--> true
+
+
 
 // let someNumber = null;
 
@@ -64,7 +68,9 @@ let str2 = " Manish"
 let gameCounter = 100;
 gameCounter++;
 
-// console.log(gameCounter);
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
 
 /* prefix (++x)
 operator increments and return value before the increments. 

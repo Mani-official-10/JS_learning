@@ -1,7 +1,7 @@
-// const Accountid = "1";
 // const accountid = "1";
+// const ACCOUNTID = "1";node
 // const accountId = "1";
-// const ACCOUNTID = "1";
+// const Accountid = "1";
 
 // all are valid variable names 
 
@@ -14,7 +14,8 @@ accountCity = "Delhi";
 accountEmail = "ronakrawat71@gmail.com";
 accountPassword = "54321";
 accountCity = "Hyderabad";
-// console.log(accountId); ----------------------> not allowed to redeclare the const variable.
+console.log(accountId); 
+// ----------------------> not allowed to redeclare the const variable.
 
 
 /*
@@ -27,3 +28,6 @@ varibale without the value is print with the "undefined" value.
 */
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
+
+console.log("hello ! world");
+

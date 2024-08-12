@@ -18,9 +18,9 @@ const gameName = "Manish";
 
 // const naming = "vamika";
 
-// // const name2 = naming.substring(0,3);
+// const name2 = naming.substring(0,3);
 
-// // console.log(name2);
+// console.log(name2);  ---> end no not included
 
 // const name2 = naming.slice(-5,5)
 // console.log(name2);

@@ -1,31 +1,35 @@
 /* datatypes divided into 2 types based on how data stored or excess in memory.
- primitive datatypes -> 
- 7 types : 
- a. string > "Manish"
- b. number > 31
- c. boolean > true/false
- d. null > standalone value (empty value)
- e. udefined > no value assigned
- f. symbol > make unique 
- g. bigint > bigger numbers or value
-
- Non-primitive(reference type) ->
- a. Objects > 
- let bio = {
-    name:"manish",
-    age: 31,
-    sex:"male"
- }
-
- b. functions
- const myfunction = function (){
-    console.log("Hello world !");
- }
  
- myfunction();
+
+1)  primitive datatypes ->  (Call by values, provided a copy of data) 7 types : 
+      a. string > "Manish"
+      b. number > 31
+      c. boolean > true/false
+      d. null > standalone value (empty value)
+      e. udefined > no value assigned
+      f. symbol > make unique 
+               symbol();
+      g. bigint > bigger numbers or value
+                  const bigNumber = 2345678876543456n;
+
+
+2) Non-primitive(reference type) ->
+      a. Objects > 
+      let bio = {
+         name:"manish",
+         age: 31,
+         sex:"male"
+      }
+
+      b. functions
+      const myfunction = function (){
+         console.log("Hello world !");
+      }
  
-c. array ->
-const arr = [shaktimaan , aaryaman , sabu , naagraj]
+      myfunction();
+ 
+     c. array ->
+     const arr = [shaktimaan , aaryaman , sabu , naagraj]
 
 */
 

@@ -13,17 +13,17 @@ const date = new Date()
 let myTimeStamp = Date.now();
 // console.log(myTimeStamp);
 
-// **********for covert to seconds from MediaElementAudioSourceNode.************
+// **********for convert to seconds from MediaElementAudioSourceNode.************
 // console.log(Math.floor(myTimeStamp/1000));
 
 const newDate = new Date();
 
 console.log(newDate);
 // console.log(newDate.getDate());
-// console.log(newDate.getDay());
+// console.log(newDate.getDay());   
 // console.log(newDate.getFullYear());
 // console.log(newDate.getHours());
-// console.log(newDate.getUTCDay());
+// console.log(newDate.getUTCDay());git 
 // console.log(newDate.getUTCFullYear());
 
 const dates = newDate.toLocaleString("default",{

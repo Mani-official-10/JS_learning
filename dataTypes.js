@@ -20,7 +20,8 @@ console.log(3+
     let isLoggedIn = false;
 
     // D) bigInt
-
+    // any big number
+     
     // E)  null -> standalone value
     let temp = null;
 
