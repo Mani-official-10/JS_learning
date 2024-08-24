@@ -18,21 +18,21 @@
 
 
 // ******************* Normal function declaration************************************
-// function user() {
-//     let username = "Manish";
-//     console.log(this);  ---> this return global object or some properties
-//     console.log(this);  ---> this return undefined bcoz this can't be used inside function
+//  function user() {
+//      let username = "Manish";
+//      console.log(this);  /*---> this return global object or some properties*/
     
-// }
-// user();
+//  }
+// console.log(this);  /*---> this return undefined bcoz this can't be used inside function*/
+//  user();
 
 //  ************************Arrow function decleration********************************
 // const user = () => {
 //     let username = "Manish";
 //     console.log(this);   --->  this returns empty object
-//     console.log(this);   --->  this return undefined bcoz this can't be used inside function
-    
+
 // }
+//     console.log(this);   --->  this return undefined bcoz this can't be used inside function
 // user();
 
 // Explicite return 
