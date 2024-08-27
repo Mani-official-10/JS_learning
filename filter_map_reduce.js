@@ -32,3 +32,32 @@ const mynum = [1,2,3,4,5,6,7,8,9,10];
 //                 console.log(newNums);
                 
 // reduce 
+
+// const myNums = [1,2,3,4,5,6,7,8,9,10];
+
+// const myTotal = myNums.reduce((acc , currval)=> acc + currval ,0);
+// console.log(myTotal);
+
+// Shpooing cart example
+
+// const shoppingCart = [
+//     {
+//         coursename : 'JS',
+//         Price : 299
+//     },
+//     {
+//         coursename : 'CSS',
+//         Price : 599
+//     },
+//     {
+//         coursename : 'Data Scientist',
+//         Price : 1299
+//     },
+//     {
+//         coursename : 'English Speaking',
+//         Price : 399
+//     }
+// ]
+
+// const shopTotal = shoppingCart.reduce( (acc ,item)=> acc + item.Price, 0)
+// console.log(shopTotal);
