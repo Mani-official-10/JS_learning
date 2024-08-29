@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 580px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    margin: 20px;
+}
+
+.boxes{
+    width: 90px;
+    height: 90px;
+    margin: 2px;
+    border: solid 2px black ;
+}
+
+#one{
+    background-color: #212131;
+}
+#two{
+    background-color: orangered;
+}
+#three{
+    background-color: yellowgreen;
+}
+#four{
+    background-color: pink;
+}
+
+.footer>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 900;
+}
