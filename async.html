@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async </title>
+</head>
+
+<body>
+    <h1>Chai or Code</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        //     const setTime = function(){
+        //     console.log("Manish");
+
+        //    }
+        //    const print = setTimeout(setTime ,3000) 
+
+        // const setTime = function(){
+        //     console.log("Manish");
+        // }
+
+        // const print = setInterval(setTime, 2000);
+        let intervalId
+        const start = document.querySelector('#start').addEventListener('click', function () {
+            const setTime = function () {
+                console.log("Manish");
+
+            }
+            intervalId =setInterval(setTime, 2000)
+            return;
+        })
+
+        const stop = document.querySelector('#stop').addEventListener('click', function () {
+            
+            clearInterval(intervalId);
+            intervalId = null;
+        })
+    </script>
+</body>
+
+</html>
