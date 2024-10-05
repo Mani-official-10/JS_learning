@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+
+    <script>
+        // function outer (){
+        //     let username = "manish";
+        //     console.log(app);  /* --> not accessible */
+            
+        //     function inner (){
+        //         let app = "web_App" ;
+        //         console.log(username)       
+        //     }
+
+        //     function innerTwo (){
+        //         console.log(username);
+        //         console.log(app);  /*--> not accessible */
+                
+        //     }
+        //     inner()
+        //     innerTwo()
+        // }
+        // console.log(username); /* --> not accessible */
+        // outer();
+    </script>
+
+    <script>
+        // function outer(){
+        //     let username = "Manish"
+
+        //     function inner(){
+        //         console.log(username);
+        //     }
+        //     return inner
+        // }
+
+        // const out = outer()
+        // out()
+    </script>
+
+    <script>
+        function clickHandler (color){
+            // document.body.style.backgroundColor = `${color}`
+            
+            return function (){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler("orange")
+        document.getElementById('green').onclick = clickHandler("green")
+
+    </script>
+</body>
+</html>
